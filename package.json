@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-badger",
+  "version": "1.0.0",
+  "description": "A personal portfolio",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w app/sass -o app/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleazae/portfolio-badger.git"
+  },
+  "keywords": [
+    "portfolio",
+    "badger"
+  ],
+  "author": "Mateusz Bontruk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eleazae/portfolio-badger/issues"
+  },
+  "homepage": "https://github.com/Eleazae/portfolio-badger#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
