@@ -1,0 +1,24 @@
+$bordercolor: #B1B6BF;
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+.contents {
+	margin: 2% 8% 2% 8%;
+	padding: 2%;
+	border: 0.1em dashed $bordercolor;
+	text-align: justify;
+	color: #000;
+	position: relative;
+}
+
+.navfooter {
+  padding: 10px;
+  font-size: 9px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
