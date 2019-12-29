@@ -1,19 +1,45 @@
-.container-fluid {
+body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: #C2C2C2; }
 
-.contents {
-  margin: 2% 8% 2% 8%;
-  padding: 2%;
-  border: 0.1em dashed #B1B6BF;
-  text-align: justify;
-  color: #000;
-  position: relative; }
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 100px 100px 100px 100px 100px 3fr;
+  grid-template-rows: 300px 100px 100px 100px auto;
+  grid-template-areas: ". . . . . . . ." ". av . name name name . ." ". av . . . . . . " ". av . menu menu menu menu ." ". . . . . . . ."; }
 
-.navfooter {
-  padding: 10px;
-  font-size: 9px;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%; }
+.name {
+  grid-area: name;
+  display: block;
+  line-height: 100px; }
+  .name h1 {
+    font-family: 'Inria Serif', serif;
+    font-size: 2.3em;
+    vertical-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #999999; }
+
+.av {
+  grid-area: av;
+  background-image: url("../img/borsuk.png");
+  width: 300px;
+  border-radius: 50%; }
+
+.grid-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); }
+
+.menu {
+  grid-area: menu;
+  background-color: green;
+  width: 400px; }
+  .menu ul {
+    list-style: none;
+    margin: 0 0 0 0;
+    padding-inline-start: 0; }
+    .menu ul li {
+      display: list-item; }
+
+/*# sourceMappingURL=styles.css.map */
