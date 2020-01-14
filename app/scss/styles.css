@@ -28,10 +28,11 @@ body {
 
 #av {
   grid-area: av;
-  background-image: url("../img/borsuk.png");
-  width: 300px;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%; }
+  width: 300px; }
+  #av img {
+    width: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%; }
 
 #menu {
   grid-area: menu;
